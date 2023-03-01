@@ -6,7 +6,12 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@apollo/server": "^4.4.0",
+    "@elysiajs/apollo": "^0.2.1",
+    "@elysiajs/cors": "^0.1.0",
+    "@elysiajs/websocket": "^0.2.8",
+    "elysia": "0.2.9",
+    "graphql": "^16.6.0"
   },
   "devDependencies": {
     "bun-types": "latest"
