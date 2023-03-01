@@ -132,7 +132,7 @@ const app = new Elysia()
 			}),
 		},
 	})
-	.listen(3001)
+	.listen(3000)
 
 export type App = typeof app
 
