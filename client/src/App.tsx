@@ -17,11 +17,12 @@ import type { App } from '../../src'
 import './App.css'
 import { userStore, useUserStore } from './store/user'
 
-export const api = eden<App>(
-	location.origin === 'http://localhost:5173'
-		? 'http://localhost:3001'
-		: location.origin
-)
+// export const api = eden<App>(
+// 	location.origin === 'http://localhost:5173'
+// 		? 'http://localhost:3001'
+// 		: location.origin
+// )
+export const api = eden<App>('https://bun-elysia-production.up.railway.app/')
 
 interface Message {
 	message: string

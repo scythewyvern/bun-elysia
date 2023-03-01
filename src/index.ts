@@ -13,6 +13,8 @@ const EVENTS = {
 	NEW_ROOM_MESSAGE: 'newRoomMessage',
 } as const
 
+const PORT = process.env.PORT || 3001
+
 const app = new Elysia()
 	.use(cors())
 	.use(websocket())
@@ -132,7 +134,7 @@ const app = new Elysia()
 			}),
 		},
 	})
-	.listen(3000)
+	.listen(PORT)
 
 export type App = typeof app
 
