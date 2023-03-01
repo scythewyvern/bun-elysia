@@ -22,7 +22,7 @@ import { userStore, useUserStore } from './store/user'
 // 		? 'http://localhost:3001'
 // 		: location.origin
 // )
-export const api = eden<App>('https://bun-elysia-production.up.railway.app/')
+export const api = eden<App>('https://bun-elysia.up.railway.app/')
 
 interface Message {
 	message: string

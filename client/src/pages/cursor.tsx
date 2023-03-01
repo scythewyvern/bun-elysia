@@ -51,7 +51,7 @@ export default function CursorPage() {
 					position: 'absolute',
 					transform: `translate(${remoteCursor.x}px, ${remoteCursor.y}px)`,
 					cursor: 'none',
-					transition: 'all 0.05s ease 0s',
+					transition: 'all 0.04s ease 0s',
 				}}
 			>
 				{remoteUser}
